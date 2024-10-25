@@ -2,6 +2,7 @@
   events:
   - type: "PUSH"
     refs:
+    - ":default"
     - "refs/heads/*"
   fail_on_prepare_env_warning: true
   actions:
