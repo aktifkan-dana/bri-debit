@@ -35,4 +35,5 @@
     - "apt-get install -y zlib1g-dev"
     - "apt-get install -y libzip-dev"
     - "docker-php-ext-install zip"
+    reset_entrypoint: true
     shell: "BASH"
