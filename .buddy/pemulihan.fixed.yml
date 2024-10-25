@@ -4,7 +4,9 @@
     refs:
     - ":default"
     - "refs/heads/*"
-  fail_on_prepare_env_warning: true
+  disabled: true
+  fetch_all_refs: true
+  filesystem_changeset_base: "CONTENTS"
   actions:
   - action: "composer install"
     type: "BUILD"
